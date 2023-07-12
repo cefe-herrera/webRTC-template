@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { SimpleCameraComponent } from './pages/simple-camera/simple-camera.component';
 import { MainComponent } from './pages/main/main.component';
+import { CameraComponent } from './components/camera/camera.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './pages/main/main.component';
     NavbarComponent,
     LoaderComponent,
     SimpleCameraComponent,
-    MainComponent
+    MainComponent,
+    CameraComponent
   ],
   imports: [
     BrowserModule,
